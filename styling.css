@@ -1,0 +1,87 @@
+body{
+  background-image: url("Screenshot\ 2026-06-30\ 223832.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ 
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputs{
+    display: flex;
+   
+}
+input[type="text"]{
+    width: 80%;       
+  display: flex;
+  margin: 0 auto;   
+  padding: 12px;
+  font-size: 18px;
+ 
+  justify-content: left;
+  align-items: left;
+}
+input[type="button"]{
+        width: 10%;       
+  display: flex;
+  margin: 0 auto;   
+ 
+ 
+  font-size: 24px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.card{
+    display: flex;
+    height:auto;
+    border: 2px solid black;
+    border-radius: 5%;
+    margin: 20px;
+    position: relative;
+    backdrop-filter: blur(10px);
+    background: rgba(rgb(0, 128, 255), green, blue, 0.1);
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
+    background: rgba(211, 171, 7, 0.1);
+}
+.card .t{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.card .check{
+     display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-left: 2px;
+}
+input[type="checkbox"]{
+    transform: scale(2.2);
+}
+.del input[type="button"] {
+   background: transparent;
+  border: none;
+  color: red;
+  height: 50px;
+  width: 50px;
+  font-size: 24px;  
+  cursor: pointer;
+  padding: 10px 14px;
+  border-radius: 5px;
+  margin-right: 20px;
+ 
+}
+.date{
+    font-size: 20px;
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.55;
+}
+
