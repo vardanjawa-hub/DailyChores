@@ -84,4 +84,10 @@ input[type="checkbox"]{
     text-decoration: line-through;
     opacity: 0.55;
 }
-
+@media
+(prefers-color-scheme: dark){
+    body{
+        background: black;
+        color: white;
+    }
+}
